@@ -30,6 +30,18 @@
     <title>ProgExam xD </title>
 </head>
 <body>
+<script type="text/javascript">
+   var username = prompt("username");
+   var password = prompt("password");
+   if (username != "root" && password !="root"){
+       window.open("http://localhost/progexam/password.html","_self")
+   }
+   else {
+       console.log("else");
+   }
+
+
+</script>
 
 <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
