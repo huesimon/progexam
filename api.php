@@ -36,7 +36,7 @@ for ($i=0;$i<count($columns);$i++) {
 switch ($method) {
     case 'GET':
         $sql = "SELECT * FROM `$table`"; // henter alt data fra SQL
-//        $sql = "SELECT * FROM `$table`  WHERE orders.ORD_ID=" . "'" .$key . "'";
+    //        $sql = "SELECT * FROM `$table`  WHERE orders.ORD_ID=" . "'" .$key . "'";
 
         break;
     case 'PUT':
